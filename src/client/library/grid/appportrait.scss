@@ -1,0 +1,37 @@
+#Play, #Update, #Download, #LibraryItemActionButton {
+    background: var(--GreenBG);
+    box-shadow: none;
+    border-radius: 0%;
+    border: var(--Outset);
+    transition: 0s;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#RecentGameFooter {
+    border: var(--Outset);
+    background: var(--GreenBG);
+}
+
+#FooterBlurImageContainer, #LibraryItemBoxShine {
+    display: none;
+}
+
+#LibraryItemBox {
+    box-shadow: none;
+}
+
+#Capsule {
+    border: var(--Inset);
+}
+
+#LibraryItemBoxSubscript {
+    background-color: var(--GreenBG);
+    border-radius: 0;
+    border: var(--Outset);
+    box-shadow: none;
+}

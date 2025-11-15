@@ -1,0 +1,20 @@
+#LibraryWindowDivider {
+    width: 8px;
+    min-width: 8px;
+    background-color: transparent;
+    &:hover {
+        background-color: transparent;
+    }
+}
+
+#LeftListSizableContainer, #MainPanel {
+    border: var(--Inset);
+}
+
+#MainPanel {
+    background: var(--DarkGreenBG);
+}
+
+#ExitGameDialog {
+    background: var(--GreenBG);
+}

@@ -1,0 +1,15 @@
+#SettingsDialogButton {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    transition: .0s;
+    box-shadow: none;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+    &.Disabled {
+        color: var(--DisabledText1)
+    }
+}

@@ -1,0 +1,22 @@
+#LinksSection {
+    background: var(--DarkGreenBG);
+}
+
+#Link {
+    border: var(--Outset);
+    transition: .0s;
+    &:active {
+        border: var(--Inset);
+    }
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+}
+
+#LinksSectionBody {
+    background: var(--GreenBG);
+}
+
+#Text {
+    color: var(--OffWhite);
+}

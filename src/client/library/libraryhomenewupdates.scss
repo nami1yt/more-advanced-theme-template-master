@@ -1,0 +1,21 @@
+#PartnerEventRowCapsule {
+    padding: 5px;
+    height: auto;
+    background: var(--GreenBG);
+    border: var(--Outset);
+}
+
+#PartnerEventRowCapsule_MainImageContainer {
+    border-radius: 0px;
+}
+
+#GameIconAndName {
+    border: var(--Outset);
+    background: none;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}

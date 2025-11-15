@@ -1,0 +1,45 @@
+$DialogBody_padding: 24px;
+
+// Filter options sidebar
+#DialogBody {
+	--sidebar-width: 230px;
+	margin-left: var(--sidebar-width);
+	overflow: visible;
+	position: relative;
+}
+
+#FilterOptionsCtr {
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: calc(var(--sidebar-width) * -1);
+	height: 100%;
+	flex-direction: column;
+	align-items: start;
+}
+
+#FilterOptionsCtr {
+	.DialogCheckbox_Container,
+	.DialogDropDown,
+	.DialogInput {
+		width: calc(var(--sidebar-width) - $DialogBody_padding);
+		box-sizing: border-box;
+	}
+}
+
+#FilterOptionsLatencyAntiCheatCtr {
+	flex-basis: unset;
+}
+
+#FilterOptionsCheckboxesCtr {
+	align-self: start;
+}
+
+#ToggleShowFilterDetailsButton {
+	display: none;
+}
+
+// Fix text being cut off
+#ServerList [role="cell"] {
+	display: block;
+}

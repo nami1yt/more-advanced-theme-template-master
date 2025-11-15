@@ -1,0 +1,9 @@
+#MenuHeader {
+    background-color: var(--DarkGreenBG);
+    border: 1px solid var(--GreenBG);
+    border-radius: 0%;
+    text-transform: none;
+    &:hover {
+        background-color: var(--GreenBG);
+    }
+}

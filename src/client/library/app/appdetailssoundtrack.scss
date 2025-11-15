@@ -1,0 +1,26 @@
+#SoundtrackPanel {
+    background: var(--DarkGreenBG);
+}
+
+#BackgroundBlurArt {
+    display: none;
+}
+
+#DesktopControls {
+    border: var(--Inset);
+    border-radius: 0px;
+    background: var(--GreenBG);
+}
+
+#TrackListContainer {
+    border: var(--Inset);
+    border-radius: 0;
+}
+
+#Disc {
+    background: var(--LightGreenBG);
+}
+
+#LeftColumn {
+    mask-image: none;
+}

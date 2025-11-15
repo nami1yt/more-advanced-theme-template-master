@@ -1,0 +1,54 @@
+#GraphAndStats {
+    background: var(--DarkGreenBG);
+}
+
+#Logo {
+    border: var(--Outset);
+    background: var(--GreenBG);
+}
+
+#HeroAndLogo{
+    z-index: 4;
+}
+
+#Network svg{
+    color: var(--Maize);
+}
+
+#Disk {
+    background: var(--Maize);
+}
+
+#DownloadGraph {
+    -webkit-mask-image: none;
+}
+
+#LogoShadow, #HeroContainer {
+    opacity: 0;
+}
+
+#Empty {
+    background: var(--DarkGreenBG);
+}
+
+#HeroGradient {
+    background: none;
+}
+
+#DiskGraph {
+    width: 125%;
+}
+
+#GraphBar {
+    color: var(--Maize)
+}
+
+#GraphLine {
+    stroke: var(--DimListText);
+}
+
+@media (max-width: 1500px) {
+    #DiskGraph {
+        width: 180%;
+    }
+}

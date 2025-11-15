@@ -1,0 +1,38 @@
+#BottomBar {
+    background: transparent;
+    box-shadow: none !important;
+    padding: 0;
+}
+
+#Status {
+    color: var(--Maize);
+}
+
+#ProgressBar {
+    --color-progress-bar-foreground: var(--Maize);
+    --color-progress-bar-background: var(--DarkGreenBG);
+    border-radius: 0px;
+    border: var(--Inset);
+}
+
+#FriendsButton {
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#AddGameButton {
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#Icon {
+    display: none;
+}
+
+#Text {
+    color: var(--OffWhite);
+}

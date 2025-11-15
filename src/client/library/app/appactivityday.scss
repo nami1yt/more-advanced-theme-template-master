@@ -1,0 +1,19 @@
+#AppActivityDay {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    padding: 10px;
+}
+
+#AppActivityDate {
+    text-transform: initial;
+    color: var(--OffWhite);
+}
+
+#EventBody {
+    background: var(--GreenBG);
+    box-shadow: none;
+}
+
+#Rule {
+    display: none;
+}

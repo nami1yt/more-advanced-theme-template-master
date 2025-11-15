@@ -1,0 +1,20 @@
+.game_page_background_ctn {
+    background: var(--DarkGreenBG);
+    opacity: 0;
+}
+
+.game_review_summary.positive {
+    color: var(--Maize);
+}
+
+.discount_block .discount_pct, .discount_pct {
+    color: var(--OffWhite);
+    background: var(--MaizeBG);
+    &:hover {
+        color: #fff
+    }
+}
+
+.game_background_lighten {
+    background: none;
+}

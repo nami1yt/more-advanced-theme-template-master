@@ -1,0 +1,28 @@
+#ToolbarButton, #BackToGameBtn, #ExitGameBtn {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#GameOverview, #OverlayPopup {
+    background: var(--GreenBG);
+}
+
+#GameOverviewSection {
+    border: var(--Inset);
+}
+
+#HasBackground {
+    background-color: var(--LightGreenBG);
+}
+
+#GameOverviewSectionHeader {
+    background-color: var(--DarkGreenBG);
+}
+
+#GuideListItem, #RecentNewsItem {
+    background-color: var(--GreenBG);
+    color: var(--OffWhite);
+}

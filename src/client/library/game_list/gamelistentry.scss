@@ -1,0 +1,20 @@
+#Selected {
+    background-color: var(--GreenBG);
+    box-shadow: none;
+    &:hover {
+        background-color: var(--LightGreenBG);
+    }
+}
+
+#Updating, #Running, #DownloadProgress, 
+#AppIconDownloading, #CloudError {
+    color: var(--Maize);
+}
+
+#DownloadProgressSVG circle {
+    stroke: var(--Maize);
+}
+
+#Container:hover {
+    background-color: var(--GreenBG);
+}

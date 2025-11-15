@@ -1,0 +1,63 @@
+#DownloadsPage {
+    background: var(--DarkGreenBG);
+}
+
+#ProgressBar {
+    background-color: var(--DarkGreenBG);
+    border-radius: 0px;
+    border: var(--Inset);
+}
+
+#InProgress {
+    color: var(--OffWhite);
+}
+
+#DownloadSectionActiveItem {
+    background: var(--DarkGreenBG);
+    border: var(--Outset);
+    &:hover {
+        background: var(--GreenBG);
+    }
+    transition: 0s;
+}
+
+#ActiveItemRightColumn {
+    background: var(--DarkGreenBG);
+}
+
+#SectionItem {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    transition: .0s;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+}
+
+#Button {
+    border: var(--Outset);
+    background: var(--GreenBG);
+    border-radius: 0;
+    transition: .0s;
+    box-shadow: none;
+    transition-timing-function: unset;
+    &:active {
+        border: var(--Inset);
+    }
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+}
+
+#TopBar {
+    background: var(--Maize)
+}
+
+#SectionItemStatusLine {
+    text-transform: none;
+    color: var(--Label);
+}
+
+#PatchNotes {
+    color: var(--Maize);
+}

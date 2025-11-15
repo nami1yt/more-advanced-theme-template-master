@@ -1,0 +1,99 @@
+/* URL Bar for Store */
+.UkR3sY319PuaUNuUWks2K {
+  background-color: var(--GreenBG) !important;
+}
+
+.MZPxEZcxAGtPDf1NYtouS, ._3GFljPJsX8WvOJcPupy_RG, ._3KaB94Jl4r0hFkthDPJy09 {
+  color: var(--OffWhite) !important;
+}
+
+._2CmrnGY-Amtd83ScJkFvx2 {
+  display: none !important;
+}
+
+/* Copied the code below from the orginial code, all credits to the original author */
+._3Z7VQ1IMk4E3HsHvrkLNgo {
+  background-color: var(--GreenBG) !important;
+  flex-direction: row !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding-bottom: 3px !important;
+  position: relative !important;
+}
+._3Z7VQ1IMk4E3HsHvrkLNgo > div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+._3mz8wQ6Q44B8P7pzPP4Iyw {
+  border: var(--Outset) !important;
+  padding: 0px 15px !important;
+  background-color: var(--GreenBG) !important;
+}
+
+._1rDh5rXSFZJOqCa4UpnI4z {
+  padding: 5px !important;
+  background-color: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+  margin-bottom: 15px !important;
+}
+
+.DesktopUI .window-controls > div, .ModalPosition_Dismiss .closeButton {
+  background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+  border-radius: 0% !important;
+  height: 20px !important;
+  width: 20px !important;
+  transition: none !important;
+  margin: 0 3px !important;
+}
+
+.DialogButton {
+  border: var(--Outset) !important;
+  background: var(--GreenBG) !important;
+  transition: 0s !important;
+}
+.DialogButton:hover {
+  background: var(--LightGreenBG) !important;
+}
+.DialogButton:active {
+  border: var(--Inset) !important;
+}
+.DialogButton:before {
+  box-shadow: none !important;
+}
+.DialogButton.Primary {
+  background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+}
+.DialogButton.Primary:hover {
+  background: var(--LightGreenBG) !important;
+}
+.DialogButton.Primary:active {
+  border: var(--Inset) !important;
+}
+
+/* Window Buttons */
+.DesktopUI .title-area-icon-inner {
+  transition: none !important;
+}
+
+.DesktopUI .window-controls > div:hover, .ModalPosition_Dismiss .closeButton:hover {
+  background: var(--GreenBG) !important;
+  transition: none !important;
+}
+
+.DesktopUI .window-controls > div:active, .ModalPosition_Dismiss .closeButton:active {
+  background: var(--DarkGreenBG) !important;
+  border: var(--Inset) !important;
+}
+
+.DesktopUI .window-controls > div [class*=SVGIcon] line, .DesktopUI .window-controls > div [class*=SVGIcon] rect, .DesktopUI .window-controls > div [class*=SVGIcon] polyline, .ModalPosition_Dismiss .closeButton line {
+  stroke: var(--OffWhite) !important;
+  transition: none !important;
+}
+
+.DesktopUI .window-controls > div:hover [class*=SVGIcon] line, .DesktopUI .window-controls > div:hover [class*=SVGIcon] rect, .DesktopUI .window-controls > div:hover [class*=SVGIcon] polyline, .ModalPosition_Dismiss .closeButton:hover line {
+  stroke: var(--Maize) !important;
+  transition: none !important;
+}

@@ -1,0 +1,28 @@
+#Label {
+    color: var(--OffWhite);
+}
+
+#Bar {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    transition: .0s;
+    transition: none;
+}
+
+#Selected {
+    background-color: var(--DarkGreenBG);
+    border: var(--Inset);
+}
+
+#CollectionIconBox {
+    background: var(--OffWhite) !important;
+}
+
+#CollectionIcon {
+    transition: none;
+    color: var(--OffWhite);
+}
+
+#Icon svg {
+    display: none;
+}

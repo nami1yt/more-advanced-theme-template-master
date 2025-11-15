@@ -1,0 +1,61 @@
+@import url(colors.css);
+
+@import url(dist/client/desktop/supernav.css);
+@import url(dist/client/desktop/titlebarcontrols.css);
+@import url(dist/client/desktop/steamdesktop.css);
+@import url(dist/client/desktop/bottombar.css);
+@import url(dist/client/desktop/rootmenu.css);
+@import url(dist/client/desktop/menu.css);
+@import url(dist/client/desktop/pagedsettings.css);
+
+@import url(dist/client/desktop/login/login.css);
+@import url(dist/client/desktop/login/newlogindialog.css);
+
+@import url(dist/client/desktop/settings/pagedsettings.css);
+@import url(dist/client/desktop/settings/settings.css);
+
+@import url(dist/client/dialogs/gamepaddialog.css);
+
+@import url(dist/client/library/achievements/achievementspage.css);
+
+@import url(dist/client/library/app/appactivityday.css);
+@import url(dist/client/library/app/appportrait.css);
+@import url(dist/client/library/app/appdetails.css);
+@import url(dist/client/library/app/appactionbutton.css);
+@import url(dist/client/library/app/appdetailsachievementssection.css);
+@import url(dist/client/library/app/appdetailsactivitysection.css);
+@import url(dist/client/library/app/appdetailsbutton.css);
+@import url(dist/client/library/app/appdetailsoverview.css);
+@import url(dist/client/library/app/appdetailsplaysection.css);
+@import url(dist/client/library/app/appdetailsposttextentry.css);
+@import url(dist/client/library/app/appdetailsprimarylinkssection.css);
+@import url(dist/client/library/app/appdetailssection.css);
+@import url(dist/client/library/app/appdetailssectionheader.css);
+@import url(dist/client/library/app/appdetailssoundtrack.css);
+@import url(dist/client/library/app/appdetailsspotlight.css);
+
+@import url(dist/client/library/app/non_steam/appdetailssectionnonsteam.css);
+
+@import url(dist/client/library/collections/allcollections.css);
+@import url(dist/client/library/collections/collectionview.css);
+
+@import url(dist/client/library/downloads/downloads.css);
+@import url(dist/client/library/downloads/downloadgraph.css);
+
+@import url(dist/client/library/game_list/gamelistbar.css);
+@import url(dist/client/library/game_list/gamelistdropdown.css);
+@import url(dist/client/library/game_list/gamelistentry.css);
+@import url(dist/client/library/game_list/gamelisthome.css);
+@import url(dist/client/library/game_list/gamelistsearchbar.css);
+@import url(dist/client/library/game_list/gamelistsectionheader.css);
+
+@import url(dist/client/library/grid/appgrid.css);
+@import url(dist/client/library/grid/appportrait.css);
+@import url(dist/client/library/grid/hoverposition.css);
+
+@import url(dist/client/library/overlay/steamdesktopoverlay.css);
+
+@import url(dist/client/library/library.css);
+@import url(dist/client/library/libraryhome.css);
+@import url(dist/client/library/libraryhomenewupdates.css);
+@import url(dist/client/library/writereview.css);

@@ -1,0 +1,20 @@
+._19axKcqYRuaJ8vdYKYmtTQ {
+  background-color: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+  border-radius: 0% !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  padding: 5px 8px !important;
+  font-size: 12px !important;
+  text-transform: none !important;
+  color: var(--OffWhite) !important;
+}
+._19axKcqYRuaJ8vdYKYmtTQ::after {
+  display: none !important;
+}
+
+/* For some reason, due to how the theme template was coded, i can't import it using the actual names, so i'll put the messed-up names as a temp fix */
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
+  color: var(--Maize) !important;
+  border: var(--Inset) !important;
+}

@@ -1,0 +1,7 @@
+#AppDetailsButton {
+    color: var(--OffWhite);
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}

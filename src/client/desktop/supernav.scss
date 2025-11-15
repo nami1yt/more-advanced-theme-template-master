@@ -1,0 +1,21 @@
+#MenuButton {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 5px 8px;
+    font-size: 12px;
+    text-transform: none;
+    color: var(--OffWhite);
+    &::after {
+        display: none;
+    }
+}
+
+/* For some reason, due to how the theme template was coded, i can't import it using the actual names, so i'll put the messed-up names as a temp fix */
+
+._2Lu3d-5qLmW4i19ysTt2jT._1gqEjB5QsKT_NftD1dEsdZ ._19axKcqYRuaJ8vdYKYmtTQ {
+    color: var(--Maize);
+    border: var(--Inset);
+}

@@ -1,0 +1,36 @@
+#Green > #ButtonChild {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    transition: .0s;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#ButtonChild {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    transition: .0s;
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+:not(#Disabled) > #ButtonChild svg{
+    fill: var(--OffWhite);
+    color: var(--OffWhite);
+    &:hover {
+        fill: #fff;
+    }
+}
+
+#ButtonText {
+    font-weight: 700;
+    text-transform: none;
+}

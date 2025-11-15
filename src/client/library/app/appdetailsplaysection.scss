@@ -1,0 +1,39 @@
+#DetailsProgressBar {
+    background-color: var(--Maize);
+    border: 0;
+}
+
+#DetailsProgressContainer {
+    background-color: var(--DarkGreenBG);
+    border: var(--Inset);
+    border-radius: 0;
+}
+
+#AppDetailsSelectedBeta {
+    color: var(--Maize);
+}
+
+#PlayBarLabel {
+    text-transform: unset;
+}
+
+#InnerContainer {
+    background: var(--DarkGreenBG);
+}
+
+#Favorited svg path {
+    fill: var(--Maize);
+    stroke: var(--Maize);
+}
+
+#MenuButton {
+    background-color: var(--GreenBG);
+    border-radius: 0;
+    border: var(--Outset);
+    &:hover {
+        background-color: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Theme-Template",
+    "author": "Millennium",
+    "description": "An example template theme.",
+
+    "discord_support": {
+        "inviteCodeExcludingLink": "NcNMP6r2Cw"
+    },
+    "header_image": "https://i.imgur.com/image_here.png",
+    "splash_image": "https://i.imgur.com/image_here.png",
+    "tags": [
+        "Example",
+        "Template"
+    ],
+    "version": "1.0.0",
+
+    "Steam-WebKit": "webkit.css",
+    "UseDefaultPatches": true
+}

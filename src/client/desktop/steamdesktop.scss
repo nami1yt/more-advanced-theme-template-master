@@ -1,0 +1,101 @@
+/* URL Bar for Store */
+#URLBar {
+    background-color: var(--GreenBG);
+}
+
+#URL, #LockIcon, #ReloadButton {
+    color: var(--OffWhite)
+}
+
+#URLBarReplacement {
+    display: none;
+}
+
+/* Copied the code below from the orginial code, all credits to the original author */
+
+#TopBar {
+    background-color: var(--GreenBG) !important;
+    flex-direction: row !important;
+    box-shadow: none !important;
+    border: none;
+    padding-bottom: 3px;
+    position: relative;
+    & > div {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+#OuterFrame {
+    border: var(--Outset);
+    padding: 0px 15px;
+    background-color: var(--GreenBG);
+}
+
+#ContentFrame {
+    padding: 5px !important;
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    margin-bottom: 15px;
+}
+
+.DesktopUI .window-controls > div, .ModalPosition_Dismiss .closeButton{
+    background: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    height: 20px;
+    width: 20px;
+    transition: none !important; 
+    margin: 0 3px;
+}
+
+.DialogButton {
+    border: var(--Outset);
+    background: var(--GreenBG);
+    transition: 0s;
+        &:hover {
+            background: var(--LightGreenBG);
+        }
+        &:active {
+            border: var(--Inset);
+        }
+        &:before {
+            box-shadow: none;
+        }
+    &.Primary {
+        background: var(--GreenBG);
+        border: var(--Outset);
+        &:hover {
+            background: var(--LightGreenBG);
+        }
+        &:active {
+            border: var(--Inset);
+        }
+    }
+}
+
+/* Window Buttons */
+
+.DesktopUI .title-area-icon-inner{
+    transition: none;
+}
+
+.DesktopUI .window-controls > div:hover, .ModalPosition_Dismiss .closeButton:hover{
+    background: var(--GreenBG) !important;
+    transition: none !important;
+}
+
+.DesktopUI .window-controls > div:active, .ModalPosition_Dismiss .closeButton:active{
+    background: var(--DarkGreenBG) !important;
+    border: var(--Inset);
+}
+
+.DesktopUI .window-controls > div [class*="SVGIcon"] line, .DesktopUI .window-controls > div [class*="SVGIcon"] rect, .DesktopUI .window-controls > div [class*="SVGIcon"] polyline,  .ModalPosition_Dismiss .closeButton line{
+    stroke: var(--OffWhite) !important;
+    transition: none;
+}
+
+.DesktopUI .window-controls > div:hover [class*="SVGIcon"] line, .DesktopUI .window-controls > div:hover [class*="SVGIcon"] rect, .DesktopUI .window-controls > div:hover [class*="SVGIcon"] polyline, .ModalPosition_Dismiss .closeButton:hover line{
+    stroke: var(--Maize) !important;
+    transition: none;
+}

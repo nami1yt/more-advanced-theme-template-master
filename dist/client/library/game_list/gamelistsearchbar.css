@@ -1,0 +1,32 @@
+._12vo5L1hsNGdao6_ssuirS {
+  border-radius: 0 !important;
+  border: 1px solid var(--GreenBG) !important;
+  margin-right: 5px !important;
+  height: 34px !important;
+}
+
+._20QAC4WMXm8qFE8waUT5oo {
+  background-color: unset !important;
+  border-radius: 0 !important;
+}
+
+._1TxHdzOt3OD9ikR3xIseKe {
+  border: var(--Outset) !important;
+  background-color: var(--GreenBG) !important;
+}
+._1TxHdzOt3OD9ikR3xIseKe:active {
+  border: var(--Inset) !important;
+}
+._1TxHdzOt3OD9ikR3xIseKe:hover {
+  background-color: var(--LightGreenBG) !important;
+}
+
+.Woh0kBQCmatzC1daBX9i6 {
+  background-color: var(--GreenBG) !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  border: 1px solid var(--DarkGreenBG) !important;
+}
+.Woh0kBQCmatzC1daBX9i6::before {
+  display: none !important;
+}

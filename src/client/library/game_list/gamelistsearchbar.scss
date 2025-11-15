@@ -1,0 +1,32 @@
+#SearchInput {
+    border-radius: 0;
+    border: 1px solid var(--GreenBG);
+    margin-right: 5px;
+    height: 34px;
+}
+
+#Container {
+    background-color: unset;
+    border-radius: 0;
+}
+
+#AdvancedSearchButton {
+    border: var(--Outset);
+    background-color: var(--GreenBG);
+    &:active {
+        border: var(--Inset);
+    }
+    &:hover {
+        background-color: var(--LightGreenBG);
+    }
+}
+
+#AdvancedSearchPane {
+    background-color: var(--GreenBG);
+    box-shadow: none;
+    border-radius: 0px;
+    border: 1px solid var(--DarkGreenBG);
+    &::before {
+        display: none;
+    }
+}

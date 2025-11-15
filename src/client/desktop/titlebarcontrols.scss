@@ -1,0 +1,56 @@
+#TitleBarControls {
+	position: absolute;
+    right: 0;
+    align-items: start;
+}
+
+#AccountMenu {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    height: 27px;
+    min-height: 27px;
+    &:active {
+        border: var(--Inset);
+    }
+    &:hover {
+        background-color: var(--LightGreenBG);
+    }
+    &.online div {
+        color: var(--OffWhite);
+        font-weight: 100;
+    }
+    &.ingame div {
+        color: var(--Maize);
+        font-weight: 100;
+    }
+}
+
+#VRToggle, #AnnouncementsButton, #NotificationsButton, 
+#GamepadUIToggle, #SoundtrackControls, #Playing {
+    background-color: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    padding: 5px;
+    margin: 0 5px 3px;
+    position: relative;
+    width: 17px;
+    min-width: 17px;
+    height: 17px;
+    min-height: 17px ;
+    color: var(--OffWhite);
+    transition: .0s;
+    &:hover {
+    background-color: var(--LightGreenBG);
+    color: #fff;
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#Icon {
+    top: 5px;
+}
+
+
+

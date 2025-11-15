@@ -1,0 +1,7 @@
+._3Cdin80d-hVsakHUZboheb {
+  color: var(--OffWhite) !important;
+  border: var(--Outset) !important;
+}
+._3Cdin80d-hVsakHUZboheb:active {
+  border: var(--Inset) !important;
+}

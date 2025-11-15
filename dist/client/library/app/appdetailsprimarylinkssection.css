@@ -1,0 +1,22 @@
+._3-V8vjmrwuJM6Ws3tsjFJj {
+  background: var(--DarkGreenBG) !important;
+}
+
+._1b6LYWVijW-9E4YV0keDWZ {
+  border: var(--Outset) !important;
+  transition: 0s !important;
+}
+._1b6LYWVijW-9E4YV0keDWZ:active {
+  border: var(--Inset) !important;
+}
+._1b6LYWVijW-9E4YV0keDWZ:hover {
+  background: var(--LightGreenBG) !important;
+}
+
+._25f0fX6qbgdB7O_lMrbhCN {
+  background: var(--GreenBG) !important;
+}
+
+._2sNDjgK9EWiPLdNGkjun-w {
+  color: var(--OffWhite) !important;
+}

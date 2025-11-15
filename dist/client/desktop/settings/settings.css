@@ -1,0 +1,15 @@
+._3epr8QYWw_FqFgMx38YEEm {
+  background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+  transition: 0s !important;
+  box-shadow: none !important;
+}
+._3epr8QYWw_FqFgMx38YEEm:hover {
+  background: var(--LightGreenBG) !important;
+}
+._3epr8QYWw_FqFgMx38YEEm:active {
+  border: var(--Inset) !important;
+}
+._3epr8QYWw_FqFgMx38YEEm.Disabled {
+  color: var(--DisabledText1) !important;
+}
