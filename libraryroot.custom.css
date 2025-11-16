@@ -17,6 +17,7 @@
 @import url(dist/client/dialogs/gamepaddialog.css);
 
 @import url(dist/client/library/achievements/achievementspage.css);
+@import url(dist/client/library/achievements/achievementslist.css);
 
 @import url(dist/client/library/app/appactivityday.css);
 @import url(dist/client/library/app/appportrait.css);
@@ -49,7 +50,6 @@
 @import url(dist/client/library/game_list/gamelistsearchbar.css);
 @import url(dist/client/library/game_list/gamelistsectionheader.css);
 
-@import url(dist/client/library/grid/appgrid.css);
 @import url(dist/client/library/grid/appportrait.css);
 @import url(dist/client/library/grid/hoverposition.css);
 
