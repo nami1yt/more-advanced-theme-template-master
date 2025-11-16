@@ -1,0 +1,60 @@
+/* Window Buttons, [Orginial Code by MapletheMorning]*/
+
+.friendsui-container .window-controls{
+    padding: 5px 5px 0 0;
+}
+
+.friendsui-container .title-area-icon{
+    width: 28px;
+}
+
+.friendsui-container .title-area-icon .title-area-icon-inner{
+    background: var(--GreenBG);
+    border: var(--Outset);
+    border-radius: 0%;
+    height: 20px;
+    width: 20px;
+    transition: none; 
+    margin: 3px;
+}
+
+.friendsui-container .title-area-icon:hover{
+    background: transparent !important;
+}
+
+.friendsui-container .title-area-icon:active .title-area-icon-inner{
+    background: var(--DarkGreenBG);
+    border: var(--Inset);
+}
+
+.friendsui-container .title-area-icon .title-area-icon-inner [class*="SVGIcon"] line, .friendsui-container .title-area-icon .title-area-icon-inner [class*="SVGIcon"] rect, .friendsui-container .title-area-icon .title-area-icon-inner [class*="SVGIcon"] polyline{
+    stroke: var(--OffWhite) !important;
+    transition: none;
+}
+
+.friendsui-container .title-area-icon:hover .title-area-icon-inner [class*="SVGIcon"] line, .friendsui-container .title-area-icon:hover .title-area-icon-inner [class*="SVGIcon"] rect, .friendsui-container .title-area-icon:hover .title-area-icon-inner [class*="SVGIcon"] polyline{
+    stroke: var(--Maize) !important;
+    transition: none;
+}
+
+
+.friendListHeaderContainer {
+    background-color: var(--GreenBG);
+    box-shadow: none;
+}
+
+.statusHeaderGlow {
+    opacity: 0;
+}
+
+.activeTab {
+    background-color: var(--GreenBG);
+    box-shadow: none;
+    color: var(--OffWhite);
+    text-transform: none;
+}
+
+.friendsTabButtonsContainer .TabSearchButton {
+    border: var(--Inset);
+    background: var(--DarkGreenBG);
+}
