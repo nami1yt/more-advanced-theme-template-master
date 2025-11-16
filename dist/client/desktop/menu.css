@@ -1,6 +1,11 @@
 ._3pofGqV0buiKAfMPEs3_82 {
   background: var(--GreenBG) !important;
 }
-._3pofGqV0buiKAfMPEs3_82:hover {
-  background: var(--LightGreenBG) !important;
+
+._2jXHP0742MyApMUVUM8IFn:hover {
+  background-color: var(--LightGreenBG) !important;
+  color: var(--Maize) !important;
+}
+._2jXHP0742MyApMUVUM8IFn:hover:active {
+  border: var(--Inset) !important;
 }
