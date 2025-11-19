@@ -1,0 +1,14 @@
+#FolderOption {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    &:hover {
+        background: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#Active, #Active:hover {
+    background: var(--MaizeBG);
+}

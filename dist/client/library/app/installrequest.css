@@ -1,0 +1,14 @@
+.Oo5JPcEk_erKEYAzYp2nY {
+  background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+}
+.Oo5JPcEk_erKEYAzYp2nY:hover {
+  background: var(--LightGreenBG) !important;
+}
+.Oo5JPcEk_erKEYAzYp2nY:active {
+  border: var(--Inset) !important;
+}
+
+.gkgG-dWgjpwS_aqlcMNTM, .gkgG-dWgjpwS_aqlcMNTM:hover {
+  background: var(--MaizeBG) !important;
+}

@@ -72,6 +72,13 @@
             border: var(--Inset);
         }
     }
+    &.Disabled {
+        color: var(--DisabledText1);
+    }
+}
+
+.DialogContent, .DialogContentTransition {
+    background: var(--GreenBG);
 }
 
 /* Window Buttons */

@@ -72,6 +72,13 @@
 .DialogButton.Primary:active {
   border: var(--Inset) !important;
 }
+.DialogButton.Disabled {
+  color: var(--DisabledText1) !important;
+}
+
+.DialogContent, .DialogContentTransition {
+  background: var(--GreenBG) !important;
+}
 
 /* Window Buttons */
 .DesktopUI .title-area-icon-inner {
