@@ -29,6 +29,17 @@
     }
 }
 
+#DownloadStatusContent {
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#Queue {
+    color: var(--OffWhite);
+}
+
 #Icon {
     display: none;
 }

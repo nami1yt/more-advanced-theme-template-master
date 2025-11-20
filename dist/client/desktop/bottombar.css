@@ -29,6 +29,17 @@
   border: var(--Inset) !important;
 }
 
+.ip-YZhijAMZcuRoXBGiye {
+  border: var(--Outset) !important;
+}
+.ip-YZhijAMZcuRoXBGiye:active {
+  border: var(--Inset) !important;
+}
+
+._3wJnTtcTLEp0R7eQj_mK8Y {
+  color: var(--OffWhite) !important;
+}
+
 ._1KrJ3sFAqPBN9mfpaNTU5F {
   display: none !important;
 }
