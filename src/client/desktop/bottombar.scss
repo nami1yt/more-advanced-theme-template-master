@@ -15,35 +15,20 @@
     border: var(--Inset);
 }
 
-#FriendsButton {
+#FriendsButton, #AddGameButton, #DownloadStatusContent {
     border: var(--Outset);
+    &:hover {
+        background: var(--LightGreenBG);
+    }
     &:active {
         border: var(--Inset);
     }
 }
 
-#AddGameButton {
-    border: var(--Outset);
-    &:active {
-        border: var(--Inset);
-    }
-}
-
-#DownloadStatusContent {
-    border: var(--Outset);
-    &:active {
-        border: var(--Inset);
-    }
-}
-
-#Queue {
+#Queue, #Text {
     color: var(--OffWhite);
 }
 
 #Icon {
     display: none;
-}
-
-#Text {
-    color: var(--OffWhite);
 }

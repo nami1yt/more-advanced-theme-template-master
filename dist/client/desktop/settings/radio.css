@@ -1,0 +1,22 @@
+._1ml4SNc3LIyBDHIf8ekVSw {
+  background-color: var(--DarkGreenBG) !important;
+  border: var(--Inset) !important;
+  box-shadow: none !important;
+}
+
+.HijmccPB1BKyhOwhX1EVl {
+  background-color: var(--GreenBG) !important;
+  border-radius: 0 !important;
+  border: var(--Outset) !important;
+  transition: 0s !important;
+}
+.HijmccPB1BKyhOwhX1EVl:hover {
+  background-color: var(--LightGreenBG) !important;
+}
+.HijmccPB1BKyhOwhX1EVl:active {
+  border: var(--Inset) !important;
+}
+
+._3-_jME_xsuvgT3Dvq4bw_q, ._3-_jME_xsuvgT3Dvq4bw_q:hover {
+  background: var(--Maize) !important;
+}

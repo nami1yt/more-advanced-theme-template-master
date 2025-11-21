@@ -1,9 +1,10 @@
 #MenuPopup {
     background: var(--GreenBG);
+    border: var(--Outset);
 }
 
 #MenuItem:hover {
-    background-color: var(--LightGreenBG);
+    background-color: var(--GreenBG);
     color: var(--Maize);
     &:active {
         border: var(--Inset);

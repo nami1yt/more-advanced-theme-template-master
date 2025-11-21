@@ -11,7 +11,7 @@
     z-index: 4;
 }
 
-#Network svg{
+#Network svg, #GraphBar{
     color: var(--Maize);
 }
 
@@ -37,10 +37,6 @@
 
 #DiskGraph {
     width: 125%;
-}
-
-#GraphBar {
-    color: var(--Maize)
 }
 
 #GraphLine {

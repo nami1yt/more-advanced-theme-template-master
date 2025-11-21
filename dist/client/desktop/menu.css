@@ -1,9 +1,10 @@
 ._3pofGqV0buiKAfMPEs3_82 {
   background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
 }
 
 ._2jXHP0742MyApMUVUM8IFn:hover {
-  background-color: var(--LightGreenBG) !important;
+  background-color: var(--GreenBG) !important;
   color: var(--Maize) !important;
 }
 ._2jXHP0742MyApMUVUM8IFn:hover:active {

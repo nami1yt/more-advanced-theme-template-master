@@ -20,6 +20,9 @@
 ._1TxHdzOt3OD9ikR3xIseKe:hover {
   background-color: var(--LightGreenBG) !important;
 }
+._1TxHdzOt3OD9ikR3xIseKe svg path {
+  fill: var(--OffWhite) !important;
+}
 
 .Woh0kBQCmatzC1daBX9i6 {
   background-color: var(--GreenBG) !important;

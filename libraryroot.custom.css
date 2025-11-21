@@ -7,12 +7,17 @@
 @import url(dist/client/desktop/rootmenu.css);
 @import url(dist/client/desktop/menu.css);
 @import url(dist/client/desktop/pagedsettings.css);
+@import url(dist/client/desktop/contextmenu.css);
 
 @import url(dist/client/desktop/login/login.css);
 @import url(dist/client/desktop/login/newlogindialog.css);
 
 @import url(dist/client/desktop/settings/pagedsettings.css);
 @import url(dist/client/desktop/settings/settings.css);
+@import url(dist/client/desktop/settings/familysharedcomponents.css);
+@import url(dist/client/desktop/settings/familysettings.css);
+@import url(dist/client/desktop/settings/radio.css);
+@import url(dist/client/desktop/settings/segmentedinputs.css);
 
 @import url(dist/client/dialogs/gamepaddialog.css);
 
@@ -34,6 +39,9 @@
 @import url(dist/client/library/app/appdetailssectionheader.css);
 @import url(dist/client/library/app/appdetailssoundtrack.css);
 @import url(dist/client/library/app/appdetailsspotlight.css);
+@import url(dist/client/library/app/appdetailsgameinfocontainer.css);
+@import url(dist/client/library/app/installrequest.css);
+@import url(dist/client/library/app/spotlight.css);
 
 @import url(dist/client/library/app/non_steam/appdetailssectionnonsteam.css);
 

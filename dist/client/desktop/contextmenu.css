@@ -1,0 +1,18 @@
+.PP7LM0Ow1K5qkR8WElLpt {
+  background: var(--GreenBG) !important;
+  border: var(--Outset) !important;
+}
+.PP7LM0Ow1K5qkR8WElLpt:active {
+  border: var(--Inset) !important;
+}
+
+._1n7Wloe5jZ6fSuvV18NNWI, .uz1XmeUiC1KBA7Y9nOwtn {
+  text-transform: none !important;
+}
+._1n7Wloe5jZ6fSuvV18NNWI:hover, .uz1XmeUiC1KBA7Y9nOwtn:hover {
+  color: var(--Maize) !important;
+  background: var(--GreenBG) !important;
+}
+._1n7Wloe5jZ6fSuvV18NNWI .disabled, .uz1XmeUiC1KBA7Y9nOwtn .disabled {
+  color: var(--DisabledText1) !important;
+}

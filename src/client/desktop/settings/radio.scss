@@ -1,0 +1,22 @@
+#Group {
+    background-color: var(--DarkGreenBG);
+    border: var(--Inset);
+    box-shadow: none;
+}
+
+#Button {
+    background-color: var(--GreenBG);
+    border-radius: 0;
+    border: var(--Outset);
+    transition: 0s;
+    &:hover {
+        background-color: var(--LightGreenBG);
+    }
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#Active, #Active:hover {
+    background: var(--Maize);
+}

@@ -1,0 +1,18 @@
+#contextMenu {
+    background: var(--GreenBG);
+    border: var(--Outset);
+    &:active {
+        border: var(--Inset);
+    }
+}
+
+#contextMenuItem, #UpperCase {
+    text-transform: none;
+    &:hover {
+    color: var(--Maize);
+    background: var(--GreenBG);
+    }
+    & .disabled {
+        color: var(--DisabledText1);
+    }
+}

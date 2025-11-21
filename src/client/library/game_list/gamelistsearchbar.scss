@@ -19,6 +19,9 @@
     &:hover {
         background-color: var(--LightGreenBG);
     }
+    & svg path {
+        fill: var(--OffWhite);
+    }
 }
 
 #AdvancedSearchPane {
