@@ -1,6 +1,6 @@
 @import url(colors.css);
 
-@import url(dist/web/store/apppage.css);
-@import url(dist/web/store/home.css);
+@import url(dist/web_alpha/profileedit/shell.css);
+@import url(dist/web_alpha/store/home.css);
 
-@import url(dist/web/profileedit/shell.css);
+@import url(dist/web_alpha/profileedit/shell.css);
