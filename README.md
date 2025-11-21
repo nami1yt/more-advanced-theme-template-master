@@ -4,7 +4,7 @@
 
 That's right, this Steam Theme is being coded from the ground-up.
 Reason being is because some parts of the orginial theme no longer work, and
-also considering that the theme is no longer maintained. Pretty much a lot of almost code, that i don't like manually going though just to make it work.
+also considering that the theme is no longer maintained. Pretty much a lot of almost dead code, that i don't like manually going though just to make it work.
 
 Enjoy this recreation while you still can.
 
